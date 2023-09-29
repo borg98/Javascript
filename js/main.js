@@ -4,11 +4,11 @@ window.onload = () => {
 
 function handleClick() {
   const theInput = document.getElementById("numberOfLoops");
-  const numberOfLoops = +theInput.value;
+  const nol = +theInput.value;
 
   let sum = 0;
 
-  for (let i = 0; i < numberOfLoops; i++) {
+  for (let i = 0; i < nol; i++) {
     sum += i; //Sum = sum + i
   }
 
